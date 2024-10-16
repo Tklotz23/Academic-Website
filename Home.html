@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+<link rel="stylesheet" type="text/css" href="styleNew.css" />
+<header>
+  <nav class="container">
+    <div class="link1">
+    <a href="Home.html" class="navLinks">Home</a>
+    </div>
+    <div class="link2">
+    <a href="About.html" class="navLinks">About Me</a>
+    </div>
+    <div class="Link3">
+    <a href="ResearchNew.html" class="navLinks">Research</a>
+    </div>
+    <div class="link4">
+    <a href="Teaching.html" class="navLinks">Teaching</a>
+    </div>
+    <div class="link5">
+    <a href="Shenanigans.html" class="navLinks">Shenanigans</a>
+    </div>
+  </nav>
+</header>
+<div class="wrapper_text">
+    <div class="boxMe item1"></div>
+    <div class="box item2">
+        <h1> Home </h1>        
+    </div>
+    <div class="boxVFE item3"></div> 
+    <div class="box item4">
+    <h1>Welcome!</h1> 
+     <p1> I'm Taylor J. Klotz, a mathematician who likes to go by TK, and this is my website dedicated to research, teaching, and a smidge of unrelated shenanigans. I can be contacted via my UH email. 
+    <br>
+    <br>
+    The graphic on the left is something fun I made in Mathematica. It's a surface in \(\mathbb{R}^3\) which is swept out in time by a solution to the vortex filament equation (VFE), given by
+$$\frac{\partial \gamma}{\partial t}=\gamma'\times\gamma'',$$
+where \(\gamma(s,t)\) is a time-dependent curve in \(\mathbb{R}^3\) and the prime notation denotes differentiation with respect to the curve parameter \(s\). The VFE is a model for the centerline of a vortex in an incompressible ideal fluid. 
+    <br>
+    The specific solution used in the image to the left arises from taking the 1-soliton solution to the 1-dimensional focusing nonlinear Schr&ouml;dinger equation
+$$i\frac{\partial \psi}{\partial t}+\frac{\partial^2\psi}{\partial s^2}+\frac{1}{2}\psi|\psi|^2=0$$
+and using the Hasimoto transformation
+$$ \psi(s,t)=\kappa(s,t)e^{i\int_{s_0}^s\tau(\sigma,t)\,d\sigma}$$
+to find the curvature \(\kappa(s,t)\) and torsion \(\tau(s,t)\) of a solution to the VFE. We can then use those invariants to write down examples of solutions, and each cyan-colored curve on the surface to the left is precisely such a solution of the VFE with a fixed \(t\)-value. 
+    <br>    
+    </p1>
+    </div>
+</div>
+</head>
+</html>
+
